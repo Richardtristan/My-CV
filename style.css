@@ -45,6 +45,9 @@ body{
   background-color: white;
   margin: 0;
   padding: 0;
+  margin-bottom: 0px;
+  background-color: grey;
+
 }
 .photo{
   border-radius: 60em;
@@ -61,7 +64,9 @@ color: blue;
 }
 .wrapper{
 border: 9px solid rgba(79,164,69,0.51);
-border-radius: 40px;
+border-radius: 0px 0px 40px 40px;
+margin-bottom: 0;
+border-color: white;
 
 }
 header{
@@ -70,11 +75,12 @@ header{
 background-color: rgba(79,164,69,0.51);
   justify-content: space-around;
     }
-
-footer{
-  background-color: grey;
+.bas{
+background-color: grey;
     display: flex;
     margin: 0;
-    padding: 0;
-    justify-content: flex-end;
+    justify-content: center;
+    align-items: center;
+    position:  relative;
+
 }
